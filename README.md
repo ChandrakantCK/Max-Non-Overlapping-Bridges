@@ -13,5 +13,7 @@ OUTPUT:Maximum possible non-overlapping bridges=2
 APPROACH:
 
 ->Sort the south co-ordinates  in ascending order.
+
 ->For north co-ordinates, find the longest increasing subsequence.
+
 ->Join the bridges in the order of the longest increasing subsequences.
